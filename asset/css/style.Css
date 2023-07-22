@@ -1,18 +1,33 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
 }
 #Read-More {
-    color: black; text-align: center; 
+    color: white;
+    background-color: black;
 }
-h1 {
-    text-align: center;
+img {
+    width: 255px;
+    height: 170px;
+    object-fit: cover;
 }
 p {
-    text-align: center;
+    display: inline-block;
+    weight: 50%
+
 }
-h2 {
-    text-align: center; 
-}
-h3 {
-    text-align: center; 
+
+header {
+    height: 600px;
+    background-color: purple;
+   background-image: url("./photo1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 180px
+   ;
+
 }
