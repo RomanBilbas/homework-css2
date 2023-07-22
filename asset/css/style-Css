@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+#Read-More {
+    color: white; text-align: center;  
+}
 h1 {
     text-align: center;
 }
