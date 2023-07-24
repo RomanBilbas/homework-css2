@@ -6,9 +6,21 @@
 body {
     text-align: center;
 }
-#text {
+
     
 
+.Text1 {
+    display: inline-block;
+    width: 25%;
+    height: 300px;
+    background-color: grey;
+}
+h3 {
+    padding: 20px
+}
+p {
+    padding: 15px;
+    display: inline-block;
 }
 
 button {
