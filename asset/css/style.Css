@@ -10,9 +10,9 @@ body {
     
 
 .Text1 {
-    display: inline-block;
-    width: 25%;
-    height: 300px;
+    display: inline-flex;
+    max-width: 99%;
+    height: 350px;
     background-color: grey;
 }
 h3 {
@@ -22,14 +22,19 @@ p {
     padding: 15px;
     display: inline-block;
 }
+section {
+    padding: 20px;
+    margin: 15px;
+}
 
 button {
     color: white;
     background-color: black;
 }
 img {
+
     width: 255px;
-    height: 170px;
+    height: 160px;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -40,5 +45,15 @@ header {
    background-repeat: no-repeat;
    background-size: cover;
    padding: 180px;
+}
 
+footer {
+    display: inline-flex;
+}
+.foot1 {
+    background-color: blue;
+}
+
+.foot2 {
+    background-color: grey;
 }
